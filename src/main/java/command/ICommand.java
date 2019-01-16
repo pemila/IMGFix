@@ -1,4 +1,4 @@
-package command.assist;
+package command;
 
 /**
  * @author： 月在未央

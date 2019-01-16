@@ -1,6 +1,6 @@
-package command;
+package command.assist;
 
-import command.assist.ICommand;
+import command.ICommand;
 import util.ReadYML;
 
 import java.util.Map;
@@ -15,7 +15,7 @@ public class Help implements ICommand {
     public void excute() {
         Set<Map.Entry<String, String>> entrySet = ReadYML.describes.entrySet();
         for(Map.Entry<String,String> en: entrySet){
-            System.out.println(en.getKey()+":"+en.getValue());
+            System.out.println(en.getKey()+":   "+en.getValue());
         }
     }
 }

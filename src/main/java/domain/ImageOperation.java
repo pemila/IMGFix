@@ -7,9 +7,9 @@ import lombok.Data;
  * @date： 2019/1/16 16:00
  */
 @Data
-public class ImgeOperation {
-    private String length;
-    private String width;
+public class ImageOperation {
+    private int length;
+    private int width;
     private String format;
-
+    private String url;
 }

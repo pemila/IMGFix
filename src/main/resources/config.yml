@@ -1,0 +1,9 @@
+Command:
+ z: command.action.Zooms
+ help: command.assist.Help
+ init: command.assist.Init
+
+Desc:
+ z: 图片缩放
+ help: 帮助
+ quit: Quit

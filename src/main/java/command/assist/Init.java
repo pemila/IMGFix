@@ -1,6 +1,6 @@
-package command;
+package command.assist;
 
-import command.assist.ICommand;
+import command.ICommand;
 
 /**
  * @author： 月在未央
